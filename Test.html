@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <h1>Test</h1>
+        <div id="table-headers">
+            <tr>
+              <th>Name</th>
+              <th>Suburb</th>
+              <th>Address</th>
+            </tr>
+        </div>
+        <button onclick="addMarker(location)" id= "getData" data-value="highlight_row_pending">Pending</button>
+      <table>
+      <tr>
+        <td id="people-table"></td>
+      
+  
+  
+  </tr></table>
+      
+    </div>
+    <div id="map" style="width:40%;"></div>
+   
+   
+  
+    <script src="test.js"></script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArnVJVZdO76wlCBQQTGgyxXW_m6toiSuE&callback=initialize">
+            </script>
+
+  </body>
+
+</html>
+

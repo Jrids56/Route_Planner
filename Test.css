@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  h1 {
+    color: #333;
+  }
+  
+
+  #people-table {
+    overflow: scroll;
+    height: 400px;
+    overflow: auto;
+     width: 50%;
+  }
+  #table-headers {
+    position: sticky;
+     width:50%;
+     align-items: left;
+     background-color: #333;
+  }
+  
+  #map {
+    float: right;
+    height: 400px;
+    width: 40%;
+  
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table, th, td {
+    border: 1px solid #333;
+    padding: 5px;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: #eee;
+  }
